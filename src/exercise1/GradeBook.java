@@ -1,7 +1,8 @@
-package clasefifth;
+package exercise1;
 
 public class GradeBook {
     private String courseName;
+
     public String getCourseName() {
         return courseName;
     }
@@ -10,7 +11,7 @@ public class GradeBook {
         this.courseName=courseName;
     }
 
-    public GradeBook(){}
+    public GradeBook(String name){}
     public String displayMessage(){
         return "welcome to the gradebook, course name is: " + getCourseName();
     }
