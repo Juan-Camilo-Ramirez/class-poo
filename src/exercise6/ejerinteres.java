@@ -1,6 +1,6 @@
 package exercise6;
 
-public class ejercicio2 {
+public class ejerinteres {
     public static void main(String[] args) {
 
         double operacion;

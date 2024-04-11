@@ -26,11 +26,12 @@ import java.util.Scanner;
     }
     public void inputGrades(){
 
-        Scanner scanner = new Scanner(System.in);
+        Scanner keyboard = new Scanner(System.in);
         int Grade=0;
 
         System.out.println("ingrese las notas");
-        while (scanner.hasNext()) {
+        while (keyboard.hasNext()) {
+
             total += Grade;
             ++gradeCounter;
             incrementLetterGradeCounter(Grade);
